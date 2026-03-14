@@ -1,2 +1,2 @@
-# LearnPythonMasterClass-Udemy
+# LearnPythonProgrammingMasterClass-Udemy
 Udemy Course
