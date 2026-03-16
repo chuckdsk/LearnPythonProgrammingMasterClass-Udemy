@@ -12,4 +12,11 @@ backwards04 = letters[4::-1]  # start at index 4, up to the end of the string, s
 print(backwards04)
 
 backwards05 = letters[25:17:-1]  # start at index 25, up to but not including index 17, step backwards through string
+backwards06 = letters[:-9:-1]  # start at the end of the string, up to but not including index -9, step backwards through string
 print(backwards05)
+print(backwards06)
+
+print(letters[-4:])  # start at index -4, up to the end of the string -- Returns end of sequence.
+print(letters[-1:])  # start at index -1, up to the end of the string -- Returns last item of sequence.
+print(letters[:1])   # start at index 0, up to but not including index 1 -- Returns first item of sequence.
+print(letters[0])    # start at index 0, including index 0  -- Returns first item of sequence.
