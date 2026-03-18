@@ -4,7 +4,7 @@ for i in range(1, 13):
     # {0:2} - first argument (i), minimum width 2
     # {1:3} - second argument (i**2), minimum width 3
     # {2:4} - third argument (i**3), minimum width 4
-    print("No. {0:2} squared is {1:3} and cubed is {2:4}".format(i, i**2, i **3))
+    print("No. {0:2} squared is {1:3} and cubed is {2:4}".format(i, i **2, i **3))
 
 print()
 
@@ -14,7 +14,7 @@ for i in range(1, 13):
     # {0:2} - first argument (i), minimum width 2, default right-aligned
     # {1:<3} - second argument (i**2), minimum width 3, left-aligned
     # {2:<4} - third argument (i**3), minimum width 4, left-aligned
-    print("No. {0:2} squared is {1:<3} and cubed is {2:<4}".format(i, i**2, i **3))
+    print("No. {0:2} squared is {1:<3} and cubed is {2:<4}".format(i, i **2, i **3))
 
 print()
 
@@ -24,7 +24,7 @@ for i in range(1, 13):
     # {0:2} - first argument (i), minimum width 2, default right-aligned
     # {1:<3} - second argument (i**2), minimum width 3, left-aligned
     # {2:^4} - third argument (i**3), minimum width 4, center-aligned (^ specifier)
-    print("No. {0:2} squared is {1:<3} and cubed is {2:^4}".format(i, i**2, i **3))
+    print("No. {0:2} squared is {1:<3} and cubed is {2:^4}".format(i, i **2, i **3))
 
 print()
 
@@ -61,7 +61,7 @@ for i in range(1, 13):
     # {} - second placeholder (i**2)
     # {} - third placeholder (i**3)
     # No explicit numbering needed; the format() method fills them sequentially
-    print("No. {} squared is {} and cubed is {}".format(i, i**2, i **3))
+    print("No. {} squared is {} and cubed is {}".format(i, i **2, i **3))
 
 print()
 
@@ -72,4 +72,4 @@ for i in range(1, 13):
     # {} - second placeholder (i**2), no width specified  
     # {:4} - third placeholder (i**3), minimum width 4 (right-aligned by default)
     # Shows how to mix implicit arguments with specific formatting for individual fields
-    print("No. {} squared is {} and cubed is {:4}".format(i, i**2, i **3))
+    print("No. {} squared is {} and cubed is {:4}".format(i, i **2, i **3))
